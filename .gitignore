@@ -1,0 +1,216 @@
+# Gitignore para Proyecto de Automatización con Karate y Maven
+
+# ==========================================
+# ARCHIVOS COMPILADOS Y GENERADOS POR MAVEN
+# ==========================================
+
+# Directorio target (contiene todos los archivos compilados)
+target/
+
+# Archivos compilados de Java
+*.class
+
+# Archivos JAR generados
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ==========================================
+# CONFIGURACIÓN DE IDEs
+# ==========================================
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.project
+.classpath
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ==========================================
+# CONFIGURACIÓN DEL SISTEMA OPERATIVO
+# ==========================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ==========================================
+# DEPENDENCIAS Y CACHE
+# ==========================================
+
+# Repositorio local de Maven (opcional - descomentar si no quieres versionarlo)
+# .m2/
+
+# Cache de Gradle (si se usa en el futuro)
+.gradle/
+build/
+
+# Cache de npm (si se agrega frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# REPORTES Y LOGS
+# ==========================================
+
+# Logs de aplicación
+*.log
+logs/
+
+# Reportes de test (opcional - comentar si quieres versionar reportes)
+target/surefire-reports/
+target/karate-reports/
+target/failsafe-reports/
+
+# Coverage reports
+target/site/jacoco/
+
+# ==========================================
+# ARCHIVOS DE CONFIGURACIÓN SENSIBLES
+# ==========================================
+
+# Archivos de configuración con credenciales
+application-local.properties
+application-dev.properties
+application-secrets.properties
+
+# Variables de entorno
+.env
+.env.local
+.env.test
+.env.production
+
+# Archivos de configuración de base de datos
+database.properties
+
+# ==========================================
+# ARCHIVOS TEMPORALES Y BACKUP
+# ==========================================
+
+# Archivos temporales
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Archivos de backup
+*.bak
+*.backup
+*.old
+*.orig
+
+# ==========================================
+# HERRAMIENTAS DE DESARROLLO
+# ==========================================
+
+# JProfiler
+*.jprofiler
+
+# YourKit
+*.yk
+
+# JMeter
+*.jmx.bak
+
+# SonarQube
+.sonar/
+
+# ==========================================
+# ARCHIVOS ESPECÍFICOS DEL PROYECTO
+# ==========================================
+
+# Archivos de configuración específicos del entorno local
+karate-config-local.js
+local-config.json
+
+# Datos de prueba sensibles
+test-data-sensitive/
+credentials/
+
+# Archivos de resultados de pruebas específicas
+results/
+screenshots/
+evidence/
+
+# ==========================================
+# OTROS
+# ==========================================
+
+# Archivos generados por el sistema
+.mtj.tmp/
+hs_err_pid*
+replay_pid*
+
+# Archivos de documentación generada automáticamente
+/doc/api/
+/doc/coverage/
