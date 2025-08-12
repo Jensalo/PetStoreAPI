@@ -62,7 +62,7 @@ Ejercicio2_Sofka/
 
 ```bash
 # Opción A: Clonar repositorio (si está en Git)
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/Jensalo/PetStoreAPI.git
 cd Ejercicio2_Sofka
 
 # Opción B: Descargar ZIP y extraer
